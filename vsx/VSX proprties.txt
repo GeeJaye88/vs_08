@@ -1,0 +1,13 @@
+Debug
+
+Include:
+
+C:\VS_Libs\include;$(INTELMEDIASDKROOT)\include;C:\VS_Libs\IntelH264;C:\VS_Libs\IntelH264\common;C:\VS_Libs\lib555\liveMedia\include;C:\VS_Libs\lib555\UsageEnvironment\include;C:\VS_Libs\lib555\groupsock\include;C:\VS_Libs\lib555\BasicUsageEnvironment\include;C:\VS_Libs\libjpeg-turbo\include;C:\VS_Libs\dvp_sdk\Include;C:\Program Files\IDS\uEye\Develop\include;c:\VS_Libs\ffmpeg\include\;$(IncludePath)
+
+Library:
+
+C:\Program Files %28x86%29\IntelSWTools\Intel%28R%29_Media_SDK_2016.0.2\lib\win32;C:\VS_Libs\dvp_sdk\Lib;C:\Program Files\IDS\uEye\Develop\Lib;C:\VS_Libs\libjpeg-turbo\lib;c:\VS_Libs\ffmpeg\lib\;c:\VS_Libs\live555\lib\;C:\VS_Libs\IntelH264\Debug;$(LibraryPath)
+
+Linker:
+
+dvp_camsdk.lib;uEye_api.lib;jpeg-static.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;winmm.lib;d3d9.lib;libmfx.lib;lib555.lib;dxva2.lib;%(AdditionalDependencies)

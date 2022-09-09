@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="vsx_application">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="vsx_system">
+      <UniqueIdentifier>{bc021699-1a28-4343-8799-7ec70dcdb3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_system\header">
+      <UniqueIdentifier>{678f3390-2e5c-465f-88cd-c1b45be42df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_system\source">
+      <UniqueIdentifier>{432e1a29-40d6-4261-926c-940a48a0ebc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\header">
+      <UniqueIdentifier>{6cc1fc29-802e-41a5-b632-87877d84dc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_system">
+      <UniqueIdentifier>{8b5a2501-f7a7-4e90-bca3-505ef3770745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_system\header">
+      <UniqueIdentifier>{a4f0c85a-15aa-4298-8834-d3bbfaef9264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_system\source">
+      <UniqueIdentifier>{002eb09b-c9ee-40da-b634-d4d243932225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_library">
+      <UniqueIdentifier>{f382422e-fba6-437c-9230-c30066407316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_library\header">
+      <UniqueIdentifier>{701899a9-6e8e-4c1f-bb0a-480294ad3f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_library\source">
+      <UniqueIdentifier>{8c7757b5-4e70-4cb0-ac08-b3870eac6b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_project">
+      <UniqueIdentifier>{87c1b1cc-8383-400e-bfa2-3a83f5dcb90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_setup_02">
+      <UniqueIdentifier>{2d453b36-b7aa-4d35-b6cc-cdfcfe02b87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_setup_02\header">
+      <UniqueIdentifier>{c0e8d5c4-43b0-4196-97bd-3561d7e535bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_setup_02\source">
+      <UniqueIdentifier>{d16ce838-6065-430a-ac84-e0f91819f90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_application">
+      <UniqueIdentifier>{d99efdd1-8d9c-4d64-ab00-241b458c113d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_application\review_02">
+      <UniqueIdentifier>{86b0aef8-0e82-4a3a-becc-f3dd3cfc160d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_application\review_02\header">
+      <UniqueIdentifier>{dbfebceb-3e0a-4703-b973-073cd83dd76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_application\review_02\source">
+      <UniqueIdentifier>{ec869bc7-02cd-4853-a3ec-6cfe15ba8e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\camera_03">
+      <UniqueIdentifier>{36860bc0-e2b2-4747-8d72-a8bf69bd4ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\camera_03\header">
+      <UniqueIdentifier>{60949cfb-839f-4793-afd5-88ee6c1bdd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\camera_03\source">
+      <UniqueIdentifier>{79fce0d2-5fe8-4407-827d-2c9d953c7394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_project\shared_memory_04">
+      <UniqueIdentifier>{f3535337-92d0-46d2-b05b-be7695d44142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_project\shared_memory_04\source">
+      <UniqueIdentifier>{219ec123-5000-421a-811f-c0597bf06065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_project\shared_memory_04\header">
+      <UniqueIdentifier>{61d948b0-cb90-4b4d-a9e1-fe1d1cf60bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_include">
+      <UniqueIdentifier>{5aa3aece-e0ac-4a96-8241-f98a45887fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\set_exif_02">
+      <UniqueIdentifier>{1e75bc58-099c-48b6-9047-100651e46683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\set_exif_02\source">
+      <UniqueIdentifier>{63db5638-f607-404e-b40f-62abb8946b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\set_exif_02\header">
+      <UniqueIdentifier>{5b2b8cb7-790c-40b8-a363-49ccca21e2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_version_02">
+      <UniqueIdentifier>{10ce1d63-5ec7-48a4-8063-9def1b6db166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_version_02\header">
+      <UniqueIdentifier>{37777ccd-27b6-47b4-8f9f-a82661e9295d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_version_02\source">
+      <UniqueIdentifier>{e5e2d07f-f09f-4129-b800-e4eaa3d66eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs-include">
+      <UniqueIdentifier>{669f6909-a564-4b1c-b9dd-6ed8a024f748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\app_setup_02\hpp">
+      <UniqueIdentifier>{c1fc0a49-d62d-40bd-a351-4b341633c523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\cpp_02">
+      <UniqueIdentifier>{b37c712d-1667-4784-8984-83f890bfd7ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\cpp_02\source">
+      <UniqueIdentifier>{92a853f7-f1c4-41a2-99fd-768764b201b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\cpp_02\header">
+      <UniqueIdentifier>{5247286b-492c-43ce-9817-73a42308db8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\cpp_02\hpp">
+      <UniqueIdentifier>{efe198e0-6fdc-4194-b318-0dcf85e5f7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\scavenger_01">
+      <UniqueIdentifier>{78afd35d-eac1-4503-864b-ab12907501d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\scavenger_01\header">
+      <UniqueIdentifier>{a50163bd-e49b-4e7b-97db-5bd2c5d1c441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\scavenger_01\source">
+      <UniqueIdentifier>{6e0d31cc-1796-4a20-82dd-0188711b1aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\scavenger_01\hpp">
+      <UniqueIdentifier>{02e35e81-4c57-4397-a732-65f5b6d1220d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vs_system\lambda">
+      <UniqueIdentifier>{50c017e7-0b7b-49cc-be2b-7547edca3fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\mount_calc_01">
+      <UniqueIdentifier>{9aae6a37-ac74-4fac-ace2-278363b5011c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\mount_calc_01\header">
+      <UniqueIdentifier>{1fc707fb-fb87-4dee-a879-6f38b335f241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\mount_calc_01\hpp">
+      <UniqueIdentifier>{61a749ce-3711-4ede-b934-1537e6cde01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\mount_calc_01\source">
+      <UniqueIdentifier>{5b7794f3-8352-4934-b22f-2c58ae2c9669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\bmp_utility_01">
+      <UniqueIdentifier>{9cf79253-4449-47ac-8a04-c728042e7548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\bmp_utility_01\header">
+      <UniqueIdentifier>{a815e052-aa7a-4322-ac86-b2b2fe845bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsx_application\bmp_utility_01\source">
+      <UniqueIdentifier>{cda97c98-24c8-4782-ac0a-4c939b4d1edf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vsx_application\app_setup_02\source\as2_application.cpp">
+      <Filter>vsx_application\app_setup_02\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\set_exif_01\source\se1_application.cpp">
+      <Filter>vsx_application\set_exif_02\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\app_version_02\source\av2_application.cpp">
+      <Filter>vsx_application\app_version_02\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_system\source\vsx_sys_winmain.cpp">
+      <Filter>vsx_system\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_system\source\vsx_app_interface.cpp">
+      <Filter>vsx_system\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_application\review_02\source\r2_configfiles.cpp">
+      <Filter>vs_application\review_02\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_system\source\vs_app_dependency.cpp">
+      <Filter>vs_system\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_system\source\vs_sys_context.cpp">
+      <Filter>vs_system\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_system\source\vs_sys_license.cpp">
+      <Filter>vs_system\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_system\source\vs_sys_output.cpp">
+      <Filter>vs_system\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_project\shared_memory_04\source\vs_shared_memory.cpp">
+      <Filter>vs_project\shared_memory_04\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_project\shared_memory_04\source\vs_shared_memory_framework.cpp">
+      <Filter>vs_project\shared_memory_04\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_cam_ids.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_cam_pic.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_cam_props.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_char_proc.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_analysis.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_archive.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_buffer.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_jpeglib.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_lut.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_process.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_img_timeline.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_reference.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_vnode.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vs\vs_library\source\vs_obj_config.cpp">
+      <Filter>vs_library\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\cpp_02\source\cpp2_application.cpp">
+      <Filter>vsx_application\cpp_02\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\scavenger_01\source\sca1_application.cpp">
+      <Filter>vsx_application\scavenger_01\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\mount_calc_01\source\mc1_application.cpp">
+      <Filter>vsx_application\mount_calc_01\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\mount_calc_01\source\vs_dot_ini.cpp">
+      <Filter>vsx_application\mount_calc_01\source</Filter>
+    </ClCompile>
+    <ClCompile Include="vsx_application\bmp_utility_01\source\bmp1_application.cpp">
+      <Filter>vsx_application\bmp_utility_01\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vsx_application\header\vsx_app_setup.h">
+      <Filter>vsx_application\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_system\header\vsx_sys_include.h">
+      <Filter>vsx_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\app_setup_02\header\as2_application.h">
+      <Filter>vsx_application\app_setup_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\set_exif_01\header\se1_application.h">
+      <Filter>vsx_application\set_exif_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\app_version_02\header\av2_application.h">
+      <Filter>vsx_application\app_version_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\app_setup_02\header\as2_version.h">
+      <Filter>vsx_application\app_setup_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_system\header\vsx_sys_winmain.h">
+      <Filter>vsx_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_system\header\vsx_app_interface.h">
+      <Filter>vsx_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_application\review_02\header\r2_configfiles.h">
+      <Filter>vs_application\review_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_include\vs_folder.h">
+      <Filter>vs_include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_include\vs_node.h">
+      <Filter>vs_include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\header\vs_app_dependency.h">
+      <Filter>vs_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_context.h">
+      <Filter>vs_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_license.h">
+      <Filter>vs_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_licenseinfo.h">
+      <Filter>vs_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_output.h">
+      <Filter>vs_system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_project\shared_memory_04\header\vs_shared_memory.h">
+      <Filter>vs_project\shared_memory_04\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_project\shared_memory_04\header\vs_shared_memory_framework.h">
+      <Filter>vs_project\shared_memory_04\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_project\shared_memory_04\header\vs_shared_memory_structs.h">
+      <Filter>vs_project\shared_memory_04\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_define.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_ids.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_jply.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_pic.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_props.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_char_proc.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_analysis.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_archive.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_buffer.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_jpeglib.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_lut.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_process.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_img_timeline.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_reference.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_vnode.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_library\header\vs_obj_config.h">
+      <Filter>vs_library\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\app_setup_02\hpp\as2_application.hpp">
+      <Filter>vsx_application\app_setup_02\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\header\cpp2_application.h">
+      <Filter>vsx_application\cpp_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\header\cpp2_define.h">
+      <Filter>vsx_application\cpp_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\header\cpp2_version.h">
+      <Filter>vsx_application\cpp_02\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_application.hpp">
+      <Filter>vsx_application\cpp_02\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_0_examples.hpp">
+      <Filter>vsx_application\cpp_02\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_2_functions.hpp">
+      <Filter>vsx_application\cpp_02\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_3_arrays_and_strings.hpp">
+      <Filter>vsx_application\cpp_02\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_1_flow_controls.hpp">
+      <Filter>vsx_application\cpp_02\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\header\sca1_application.h">
+      <Filter>vsx_application\scavenger_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\header\sca1_define.h">
+      <Filter>vsx_application\scavenger_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\header\sca1_version.h">
+      <Filter>vsx_application\scavenger_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_include\vs_timeline.h">
+      <Filter>vs_include</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_tmp.hpp">
+      <Filter>vsx_application\scavenger_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_directory.hpp">
+      <Filter>vsx_application\scavenger_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_get.hpp">
+      <Filter>vsx_application\scavenger_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_scavenge.hpp">
+      <Filter>vsx_application\scavenger_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_callback.hpp">
+      <Filter>vsx_application\scavenger_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\lambda\vs_auto_cdp.h">
+      <Filter>vs_system\lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\lambda\vs_auto_folder.h">
+      <Filter>vs_system\lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vs\vs_system\lambda\vs_auto_str.h">
+      <Filter>vs_system\lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\mount_calc_01\header\mc1_application.h">
+      <Filter>vsx_application\mount_calc_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\mount_calc_01\header\mc1_define.h">
+      <Filter>vsx_application\mount_calc_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\mount_calc_01\header\mc1_version.h">
+      <Filter>vsx_application\mount_calc_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\mount_calc_01\header\vs_dot_ini.h">
+      <Filter>vsx_application\mount_calc_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\mount_calc_01\hpp\mc1_properties_include.hpp">
+      <Filter>vsx_application\mount_calc_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\mount_calc_01\hpp\mc1_pi_application.hpp">
+      <Filter>vsx_application\mount_calc_01\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\bmp_utility_01\header\bmp1_application.h">
+      <Filter>vsx_application\bmp_utility_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\bmp_utility_01\header\bmp1_define.h">
+      <Filter>vsx_application\bmp_utility_01\header</Filter>
+    </ClInclude>
+    <ClInclude Include="vsx_application\bmp_utility_01\header\bmp1_version.h">
+      <Filter>vsx_application\bmp_utility_01\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vsx.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

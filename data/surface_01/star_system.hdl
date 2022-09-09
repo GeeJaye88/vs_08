@@ -1,0 +1,26 @@
+#DOCTYPE HDL4
+main{
+	Explore{
+		Update:5;
+		Target:7;
+	}
+	Display{
+		Mode:2;
+	}
+	Scale{
+		Global:0.00001;
+		Objects{
+			Standard:1;
+			Large:50;
+			Graphic:10;
+		}
+	}
+	Scalar{
+		Day:0.01;
+		Time:0.5;
+	}
+	Time{
+		Pause:0;
+		MS-Offset:100000;
+	}
+}

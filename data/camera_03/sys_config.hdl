@@ -1,0 +1,38 @@
+#DOCTYPE HDL4
+main{
+	Title:PanoCam;
+	Console:0;
+	Debug:1;
+	Log:1;
+	Log-Files:5;
+	Log-Time:1;
+	Install-Data:0;
+	Graphics{
+		AAQ:3;
+		FPS:30;
+		Border-Width:4;
+		Background-Colour{
+			Red:0.0;
+			Green:0.0;
+			Blue:0.0;
+		}
+	}
+	Window{
+		Cursor:1;
+		Touch:1;
+		Desktop:0;
+		Windowed:1;
+		Dimension{
+			Min-Height:256;
+			Min-Width:256;
+			Width:1200;
+			Height:750;
+		}
+		Style{
+			Border:0;
+			Menu:0;
+			Overlap:1;
+		}
+	}
+}
+

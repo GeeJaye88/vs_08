@@ -1,0 +1,2 @@
+INT ToolbarButtonsSetup();
+INT ToolbarButtonsConfig();

@@ -1,0 +1,122 @@
+#DOCTYPE HDL4
+
+define{
+	margin_width:1;
+	border_width:1;
+}
+
+
+library{
+
+	FRAME_COLOUR{
+		Background-Colour{
+			Red:0;
+			Green:0;
+			Blue:0;
+		}
+		Background-Colour-Over{
+			Red:0;
+			Green:0;
+			Blue:0;
+		}
+   		Texture-Border-Colour{
+			Red:0;
+			Green:0.0;
+			Blue:0.8;
+		}
+ 		Texture-Border-Colour-Over{
+			Red:0;
+			Green:0.0;
+			Blue:0.8;
+		}
+ 	}
+ 
+	PANEL_COLOUR{
+  		Background-Colour {
+  			Red:0.01;
+  			Green:0.01;
+  			Blue:0.01;
+  			Alpha:0.01;
+  		}
+  		Background-Colour-Over {
+  			Red:0.01;
+  			Green:0.01;
+  			Blue:0.01;
+  			Alpha:0.01;
+  		}
+ 	}
+
+	TOOLBAR_PANEL {
+      		Panel{
+      			$lib:PANEL_COLOUR;
+      			Name:Toolbar;
+      			Display:Toolbar;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+	MAIN_PANEL {
+      		Panel{
+      			$lib:PANEL_COLOUR;
+      			Name:Main;
+      			Display:Scene;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+	TINT_PANELS {
+      		Panel{
+      			$lib:PANEL_COLOUR;
+      			Name:Tint Head;
+      			Display:Tint Head;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_COLOUR;
+      			Name:Tint Body;
+      			Display:Tint Body;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+	KEYPAD_PANELS {
+      		Panel{
+      			$lib:PANEL_COLOUR;
+      			Name:Kpad Head;
+      			Display:Kpad Head;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_COLOUR;
+      			Name:Kpad Body;
+      			Display:Kpad Body;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+}
+
+main{
+	Frameset{
+		Frame{
+			Home:1;
+			$lib:FRAME_COLOUR;
+			$lib:TOOLBAR_PANEL;
+			$lib:MAIN_PANEL;
+			$lib:TINT_PANELS;
+			$lib:KEYPAD_PANELS;
+		}
+	}
+}

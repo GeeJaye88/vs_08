@@ -1,0 +1,43 @@
+struct VS_OUTPUT
+{
+	float4 position : POSITION;
+	float4 color0    : COLOR0;
+	float2 texcoord0 : TEXCOORD0;
+};
+
+struct PS_OUTPUT
+{
+	float4 color : COLOR;
+};
+
+sampler testTexture;
+uniform float Contrast;
+uniform float Saturation;
+uniform float Brightness;
+
+float4 Saturate(float3 color)
+{
+    float3 grayXfer = float3(0.3, 0.59, 0.11);
+    float grayf = dot(grayXfer, color);
+    float3 gray = float3(grayf, grayf, grayf);
+
+    return float4(lerp(color, gray, -Saturation), 1.0);
+}
+
+PS_OUTPUT main( VS_OUTPUT IN )
+{
+	PS_OUTPUT OUT;
+
+	//OUT.color = tex2D( testTexture, IN.texcoord0 ) * IN.color0; // Modulate texel color with vertex color
+	//OUT.color = tex2D( testTexture, IN.texcoord0 ) + IN.color0; // Add texel color to vertex color
+
+	float4 Color = tex2D( testTexture, IN.texcoord0 );
+
+	Color = Color * Brightness;
+
+	Color = Color - Contrast * (Color - 1.0f) * Color * (Color - 0.5f);
+	
+	OUT.color = Saturate(Color.rgb);
+	
+	return OUT;// float4(Color,0);
+}

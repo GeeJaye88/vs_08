@@ -1,0 +1,30 @@
+#DOCTYPE HDL4
+
+define{
+	margin_width:1;
+	border_width:1;
+	spherical_FOV:64.36;
+	spherical_tilt:-12.18;
+	spherical_ur_FOV:48.0;
+	spherical_ur_tilt:-19.0;
+}
+
+
+main{
+	Frameset{
+		Frame{
+			Home:1;
+			$lib:GUI;
+			$lib:COLOR;
+			Panel{
+				Name:3D;
+				Display:Scene;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:0.0; RX:$spherical_ur_tilt; }
+			}
+		}
+	}
+}

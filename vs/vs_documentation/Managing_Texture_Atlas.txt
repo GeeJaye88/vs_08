@@ -1,0 +1,117 @@
+Managing the Texture Atlas
+==========================
+
+
+Note: exit Visual Studio before managing.
+
+
+--------------------------------------------------------------------------------
+
+In "vs/vs_system/vs_elom_context.cpp" method ElmContext::SetAtlasPages
+modify the enumerated VS_AtlasPageGroup, adding, etc.., as required.
+
+e.g.:
+
+// ---- VS_AtlasPageGroup ----
+/*!
+\brief primitive types
+\author Gareth Edwards
+*/
+enum VS_AtlasPageGroup
+{
+	VS_ATLAS_PAGE_GROUP_ONE   = 1,
+	VS_ATLAS_PAGE_GROUP_TWO   = 2,
+	VS_ATLAS_PAGE_GROUP_THREE = 3,
+	VS_ATLAS_PAGE_GROUP_FOUR  = 4,
+	VS_ATLAS_PAGE_GROUP_FIVE  = 5
+};
+
+--------------------------------------------------------------------------------
+
+In "vs/vs_system/source/vs_elm_context.cpp" method ElmContext::SetAtlasPages
+modify the VS_ATLAS_PAGE_GROUP_[...], adding, etc.., as required.
+
+e.g.:
+
+// ---------- SetAtlasPage ----------
+INT ElmContext::SetAtlasPages(UINT atlas_page_group)
+{
+	UINT atlas_base = 100;
+	switch ( atlas_page_group )
+	{
+		case VS_ATLAS_PAGE_GROUP_ONE:
+			atlas_base = 100;
+			break;
+		case VS_ATLAS_PAGE_GROUP_TWO:
+			atlas_base = 104;
+			break;
+		case VS_ATLAS_PAGE_GROUP_THREE:
+			atlas_base = 108;
+			break;
+		case VS_ATLAS_PAGE_GROUP_FOUR:
+			atlas_base = 112;
+			break;
+		case VS_ATLAS_PAGE_GROUP_FIVE:
+			atlas_base = 116;
+			break;
+		default:
+			return VS_ERROR;
+			break;
+	}
+
+	for (UINT i = 0; i<4; i++)
+		pi_elm_context->atlas_page[i] = atlas_base + i;
+
+	return VS_OK;
+}
+
+--------------------------------------------------------------------------------
+
+In "vs/vs_system/source/vs_sys_winmain.cpp" function WinResources
+edit the resource loop IDR_RCDATA[max resource #].
+
+e.g.:
+
+INT WinResources ()
+{
+   ...
+   // ---- find and then load resources
+      for (UINT idr=IDR_RCDATA00; idr<= IDR_RCDATA19; idr++)
+      {
+         ...
+      ]
+   ...
+}
+
+--------------------------------------------------------------------------------
+
+In "vs.rc" edit the RCDATA, e.g.:
+ 
+IDR_RCDATA16      RCDATA      "vs_resources\\atlas_3ds\\16.tga"
+IDR_RCDATA17      RCDATA      "vs_resources\\atlas_3ds\\17.tga"
+IDR_RCDATA18      RCDATA      "vs_resources\\atlas_3ds\\18.tga"
+IDR_RCDATA19      RCDATA      "vs_resources\\atlas_3ds\\19.tga"
+
+--------------------------------------------------------------------------------
+
+In "vs/vs_resources/resource.h" edit the IDR_RCDATA, e.g.:
+ 
+#define IDR_RCDATA16      116
+#define IDR_RCDATA17      117
+#define IDR_RCDATA18      118
+#define IDR_RCDATA19      119
+
+Then edit the _APS_NEXT_RESOURCE_VALUE to the final IDR_RCDATA19 value plus 1.
+
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+
+#define _APS_NEXT_RESOURCE_VALUE      120
+...
+
+#endif
+#endif
+
+--------------------------------------------------------------------------------
+
+

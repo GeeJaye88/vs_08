@@ -1,0 +1,26 @@
+#DOCTYPE HDL4
+main{
+	Shader{
+		Mode:1.0;
+		1{
+			Brightness:1.0;
+			Contrast:0.0;
+			Saturation:0.0;
+		}
+		2{
+			Brightness:1.50;
+			Contrast:0.50;
+			Saturation:0.50;
+		}
+		3{
+			Brightness:2.0;
+			Contrast:1.0;
+			Saturation:1.0;
+		}
+		4{
+			Brightness:1.0;
+			Contrast:-1.0;
+			Saturation:-1.0;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+#DOCTYPE HDL4
+main{
+
+	Camera{
+		Config File:0;
+		Config Lighting:1;
+	}
+
+	Archive{
+		Mode:3;
+		Compression:90;
+		Extra Threads:4;
+	}
+}

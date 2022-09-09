@@ -1,0 +1,482 @@
+#DOCTYPE HDL4
+
+define{
+	margin_width:1;
+	border_width:1;
+}
+
+library{
+
+	STREAM{
+      		Panel{
+			$lib:PANEL_PARAMETERS;
+      			Name:Stream;
+      			Display:Stream Gui;
+      			Background:0;
+      			Border{ Width:0;}
+      		}
+      		Panel{
+			$lib:PANEL_PARAMETERS;
+      			Name:Stream Hidden;
+      			Display:Stream Hidden;
+      			Background:1;
+      			Border{ Width:1;}
+      		}
+      		Panel{
+			$lib:PANEL_PARAMETERS;
+      			Name:Stream Visible;
+      			Display:Stream Visible;
+      			Background:1;
+      			Border{ Width:1;}
+      		}
+	}
+
+	GUI{
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Title;
+			Display:Title;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+ 		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Frames;
+ 			Display:Frames;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+
+	}
+
+	CAM{
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:Cam Head;
+      			Display:Cam Head;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:Cam Body;
+      			Display:Cam Body;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+	IMG{
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:Img Head;
+      			Display:Img Head;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:Img Body;
+      			Display:Img Body;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+	MULTIVIEW{
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N02;
+      			Display:NRB02;
+      			Display:NRS02;
+      			Display:NRQ02;
+      			Display:NRL02;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N03;
+      			Display:NRB03;
+      			Display:NRS03;
+      			Display:NRQ03;
+      			Display:NRL03;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N04;
+      			Display:NRB04;
+      			Display:NRS04;
+      			Display:NRQ04;
+      			Display:NRL04;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N05;
+      			Display:NRB05;
+      			Display:NRS05;
+      			Display:NRQ05;
+      			Display:NRL05;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N06;
+      			Display:NRB06;
+      			Display:NRS06;
+      			Display:NRQ06;
+      			Display:NRL06;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N07;
+      			Display:NRB07;
+      			Display:NRS07;
+      			Display:NRQ07;
+      			Display:NRL07;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N08;
+      			Display:NRB08;
+      			Display:NRS08;
+      			Display:NRQ08;
+      			Display:NRL08;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N09;
+      			Display:NRB09;
+      			Display:NRS09;
+      			Display:NRQ09;
+      			Display:NRL09;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:N10;
+      			Display:NRB10;
+      			Display:NRS10;
+      			Display:NRQ10;
+      			Display:NRL10;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+	}
+
+	NAV{
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I02;
+      			Display:IRB02;
+      			Display:IRS02;
+      			Display:IRQ02;
+      			Display:IRL02;
+      			Display:IRG02;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I03;
+      			Display:IRB03;
+      			Display:IRS03;
+      			Display:IRQ03;
+      			Display:IRL03;
+      			Display:IRG03;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I04;
+      			Display:IRB04;
+      			Display:IRS04;
+      			Display:IRQ04;
+      			Display:IRL04;
+      			Display:IRG04;
+      			Background:1;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I05;
+      			Display:IRB05;
+      			Display:IRS05;
+      			Display:IRQ05;
+      			Display:IRL05;
+      			Display:IRG05;
+      			Background:1;
+      			Status:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I06;
+      			Display:IRB06;
+      			Display:IRS06;
+      			Display:IRQ06;
+      			Display:IRL06;
+      			Display:IRG06;
+      			Background:1;
+      			Status:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I07;
+      			Display:IRB07;
+      			Display:IRS07;
+      			Display:IRQ07;
+      			Display:IRL07;
+      			Display:IRG07;
+      			Background:1;
+      			Status:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I08;
+      			Display:IRB08;
+      			Display:IRS08;
+      			Display:IRQ08;
+      			Display:IRL08;
+      			Display:IRG08;
+      			Background:1;
+      			Status:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I09;
+      			Display:IRB09;
+      			Display:IRS09;
+      			Display:IRQ09;
+      			Display:IRL09;
+      			Display:IRG09;
+      			Background:1;
+      			Status:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:I10;
+      			Display:IRB10;
+      			Display:IRS10;
+      			Display:IRQ10;
+      			Display:IRL10;
+      			Display:IRG10;
+      			Background:1;
+      			Status:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+      		Panel{
+      			$lib:PANEL_PARAMETERS;
+      			Name:Img Nav;
+      			Display:Img Nav;
+      			Background:0;
+      			Margin{ Width:$margin_width;}
+      			Border{ Width:$border_width;}
+      		}
+
+	}
+
+	FRAME_PARAMETERS{
+		Background-Colour{
+			Red:0;
+			Green:0.05;
+			Blue:0.15;
+		}
+		Background-Colour-Over{
+			Red:0;
+			Green:0.1;
+			Blue:0.3;
+		}
+   		Texture-Border-Colour{
+			Red:0;
+			Green:0.05;
+			Blue:0.15;
+		}
+ 		Texture-Border-Colour-Over{
+			Red:0;
+			Green:0.1;
+			Blue:0.3;
+		}
+ 	}
+
+	PANEL_PARAMETERS{
+  		Background-Colour {
+  			Red:0.0;
+  			Green:0.0;
+  			Blue:0.0;
+  			Alpha:1;
+  		}
+  		Background-Colour-Over {
+  			Red:0.0;
+  			Green:0.05;
+  			Blue:0.15;
+  			Alpha:1;
+  		}
+ 	}
+}
+
+main{
+	Frameset{
+
+		# ----- Frame 1 -----
+		Frame{
+		}
+
+		# ----- Frame 2 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:Overview;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:I01;
+				Display:IRQ01;
+				Display:IRL01;
+				Display:IML;
+				Display:IMB;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+			$lib:NAV;
+			$lib:IMG;
+			$lib:STREAM;
+		}
+
+		# ----- Frame 3 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:MultiView;
+			$lib:MULTIVIEW;
+			$lib:NAV;
+			$lib:IMG;
+			$lib:STREAM;
+		}
+
+		# ----- Frame 4 -----
+		Frame{
+		}
+
+		# ----- Frame 5 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:Solo;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:I11;
+				Display:IRQ11;
+				Display:IRL11;
+				Display:IRG11;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+			$lib:NAV;
+			$lib:IMG;
+			$lib:STREAM;
+		}
+
+
+		# ----- Frame 6 -----
+		Frame{
+		}
+
+		# ----- Frame 7 - Settings -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:Settings;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:I12;
+				Display:IRQ12;
+				Display:IRL12;
+				Display:IRG12;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+			$lib:CAM;
+			$lib:NAV;
+			$lib:STREAM;
+		}
+
+		# ----- Frame 8 - Dashboard -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:Dashboard;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:Dashboard;
+				Display:Dashboard;
+				Background:0;
+				Border{ Width:1;}
+			}
+			$lib:STREAM;
+		}
+
+		# ----- Frame 9 - Spec -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:Spec;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:Spec;
+				Display:Spec;
+				Background:0;
+				Border{ Width:1;}
+			}
+			$lib:STREAM;
+		}
+
+		# ----- Frame 10 - Monitor -----
+		Frame{
+			Name:Monitor;
+		}
+
+	}
+}

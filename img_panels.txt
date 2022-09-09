@@ -1,0 +1,79 @@
+
+Model::GetHandleElemImgRect(CHAR * type, CHAR *name, UINT id)
+	review_02\hpp_camera\c5_handle_elem_img_rect.hpp(35):
+	if ( id > vs_system::ObjConfig::MAX_PANO_PTF_LUT) return VS_ERROR;
+
+class Model::PI_Model
+	review_02\hpp_pi\r2_pi_model.hpp(18):
+	static const INT maxptf = vs_system::ObjConfig::MAX_PANO_PTF_LUT;
+
+INT Model::Set_ImgOrPanoPanel_IconSelected(UINT panel_id)
+INT Model::Set_ImgOrPanoPanel_Selected(
+	review_02\hpp_ptf_panels\r2_ptf_panels.hpp(47):
+	for (UINT i = 0; i < vs_system::ObjConfig::MAX_PANO_PTF_LUT; i++)
+
+The BIG ONE:
+
+review_02\hpp_setup\r2_setup_img_geom.hpp(518):
+	INT Model::SetupImgGeometry()
+	for (UINT i = 1; i <= vs_system::ObjConfig::MAX_PANO_PTF_LUT; i++)
+
+
+review_02\hpp_setup\r2_setup_panels.hpp
+
+	INT SetupPanels(vs_system::AppDependency *, vs_system::AppView *);
+
+	INT InitialisePanelParam(vs_system::AppDependency *, PanelProps*);
+	INT InitialiseInterfacePanelRects(PanelProps *);
+	INT InitialisePanoPanelRects(PanelProps *);
+	INT InitialisePhotoPanelRects(PanelProps *);
+	INT InitialiseGuiPanelRects(PanelProps *);
+	INT InitialiseMediaPanelRects(PanelProps *);
+
+	INT InitialiseQuad1PanelRects(PanelProps *);
+	INT InitialiseQuad2PanelRects(PanelProps *);
+	INT InitialiseNinePanelPanoRects(PanelProps *);
+	INT InitialiseNinePanelImgRects(PanelProps *);
+	INT InitialiseImg1PanelRects(PanelProps *);
+	INT InitialiseSixteenPanelRects(PanelProps *);
+	
+	review_02\hpp_setup\r2_setup_panel_props.hpp(111):
+	VsFloatRectangle ptf_img[vs_system::ObjConfig::MAX_PANO_PTF_LUT];
+
+
+review_02\hpp_tint_img\r2_tint_img_callback_imgptz.hpp(274):
+	for (UINT i = 0; i < vs_system::ObjConfig::MAX_PANO_PTF_LUT; i++)
+	{
+		obj_config->SetPanoDefault(i, TRUE);
+		obj_config->SetPanoDefault(i, FALSE);
+	}
+
+vs_library\header\vs_obj_config.h(178):
+	enum {
+		MAX_PANO_PTF_LUT = 16,
+		MAX_PANO_PARAM = 2,
+	};
+
+vs_library\hpp_obj\vs_image_roi.hpp:
+	class ObjConfig::ImageRoi
+
+
+vs_library\hpp_obj\vs_obj_config.hpp:
+
+
+vs_library\hpp_obj\vs_obj_vptf.hpp:
+
+	// ---- CONFIG PTF LUT
+		UINT   ptf_selected_index;
+
+		FLOAT  pan_default;
+		FLOAT  pan_lut[MAX_PANO_PTF_LUT];
+		FLOAT  pan_lut_default[MAX_PANO_PTF_LUT];
+
+		FLOAT  tilt_default;
+		FLOAT  tilt_lut[MAX_PANO_PTF_LUT];
+		FLOAT  tilt_lut_default[MAX_PANO_PTF_LUT];
+
+		FLOAT  FOV_default;
+		FLOAT  fov_lut[MAX_PANO_PTF_LUT];
+		FLOAT  fov_lut_default[MAX_PANO_PTF_LUT];

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vs\vs_application\review_02\source\r2_configfiles.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_cam_ids.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_cam_pic.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_cam_props.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_char_proc.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_analysis.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_archive.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_buffer.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_jpeglib.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_lut.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_process.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_img_timeline.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_obj_config.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_reference.cpp" />
+    <ClCompile Include="..\vs\vs_library\source\vs_vnode.cpp" />
+    <ClCompile Include="..\vs\vs_project\shared_memory_04\source\vs_shared_memory.cpp" />
+    <ClCompile Include="..\vs\vs_project\shared_memory_04\source\vs_shared_memory_framework.cpp" />
+    <ClCompile Include="..\vs\vs_system\source\vs_app_dependency.cpp" />
+    <ClCompile Include="..\vs\vs_system\source\vs_sys_context.cpp" />
+    <ClCompile Include="..\vs\vs_system\source\vs_sys_license.cpp" />
+    <ClCompile Include="..\vs\vs_system\source\vs_sys_output.cpp" />
+    <ClCompile Include="vsx_application\app_setup_02\source\as2_application.cpp" />
+    <ClCompile Include="vsx_application\app_version_02\source\av2_application.cpp" />
+    <ClCompile Include="vsx_application\bmp_utility_01\source\bmp1_application.cpp" />
+    <ClCompile Include="vsx_application\cpp_02\source\cpp2_application.cpp" />
+    <ClCompile Include="vsx_application\mount_calc_01\source\mc1_application.cpp" />
+    <ClCompile Include="vsx_application\mount_calc_01\source\vs_dot_ini.cpp" />
+    <ClCompile Include="vsx_application\scavenger_01\source\sca1_application.cpp" />
+    <ClCompile Include="vsx_application\set_exif_01\source\se1_application.cpp" />
+    <ClCompile Include="vsx_system\source\vsx_app_interface.cpp" />
+    <ClCompile Include="vsx_system\source\vsx_sys_winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vs\vs_application\review_02\header\r2_configfiles.h" />
+    <ClInclude Include="..\vs\vs_include\vs_folder.h" />
+    <ClInclude Include="..\vs\vs_include\vs_node.h" />
+    <ClInclude Include="..\vs\vs_include\vs_timeline.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_define.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_ids.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_jply.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_pic.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_cam_props.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_char_proc.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_analysis.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_archive.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_buffer.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_jpeglib.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_lut.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_process.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_img_timeline.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_obj_config.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_reference.h" />
+    <ClInclude Include="..\vs\vs_library\header\vs_vnode.h" />
+    <ClInclude Include="..\vs\vs_project\shared_memory_04\header\vs_shared_memory.h" />
+    <ClInclude Include="..\vs\vs_project\shared_memory_04\header\vs_shared_memory_framework.h" />
+    <ClInclude Include="..\vs\vs_project\shared_memory_04\header\vs_shared_memory_structs.h" />
+    <ClInclude Include="..\vs\vs_system\header\vs_app_dependency.h" />
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_context.h" />
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_license.h" />
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_licenseinfo.h" />
+    <ClInclude Include="..\vs\vs_system\header\vs_sys_output.h" />
+    <ClInclude Include="..\vs\vs_system\lambda\vs_auto_cdp.h" />
+    <ClInclude Include="..\vs\vs_system\lambda\vs_auto_folder.h" />
+    <ClInclude Include="..\vs\vs_system\lambda\vs_auto_str.h" />
+    <ClInclude Include="vsx_application\app_setup_02\header\as2_application.h" />
+    <ClInclude Include="vsx_application\app_setup_02\header\as2_version.h" />
+    <ClInclude Include="vsx_application\app_setup_02\hpp\as2_application.hpp" />
+    <ClInclude Include="vsx_application\app_version_02\header\av2_application.h" />
+    <ClInclude Include="vsx_application\bmp_utility_01\header\bmp1_application.h" />
+    <ClInclude Include="vsx_application\bmp_utility_01\header\bmp1_define.h" />
+    <ClInclude Include="vsx_application\bmp_utility_01\header\bmp1_version.h" />
+    <ClInclude Include="vsx_application\cpp_02\header\cpp2_application.h" />
+    <ClInclude Include="vsx_application\cpp_02\header\cpp2_define.h" />
+    <ClInclude Include="vsx_application\cpp_02\header\cpp2_version.h" />
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_0_examples.hpp" />
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_1_flow_controls.hpp" />
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_2_functions.hpp" />
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_3_arrays_and_strings.hpp" />
+    <ClInclude Include="vsx_application\cpp_02\hpp\cpp2_application.hpp" />
+    <ClInclude Include="vsx_application\header\vsx_app_setup.h" />
+    <ClInclude Include="vsx_application\mount_calc_01\header\mc1_application.h" />
+    <ClInclude Include="vsx_application\mount_calc_01\header\mc1_define.h" />
+    <ClInclude Include="vsx_application\mount_calc_01\header\mc1_version.h" />
+    <ClInclude Include="vsx_application\mount_calc_01\header\vs_dot_ini.h" />
+    <ClInclude Include="vsx_application\mount_calc_01\hpp\mc1_pi_application.hpp" />
+    <ClInclude Include="vsx_application\mount_calc_01\hpp\mc1_properties_include.hpp" />
+    <ClInclude Include="vsx_application\scavenger_01\header\sca1_application.h" />
+    <ClInclude Include="vsx_application\scavenger_01\header\sca1_define.h" />
+    <ClInclude Include="vsx_application\scavenger_01\header\sca1_version.h" />
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_callback.hpp" />
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_directory.hpp" />
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_get.hpp" />
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_scavenge.hpp" />
+    <ClInclude Include="vsx_application\scavenger_01\hpp\sca1_tmp.hpp" />
+    <ClInclude Include="vsx_application\set_exif_01\header\se1_application.h" />
+    <ClInclude Include="vsx_system\header\vsx_app_interface.h" />
+    <ClInclude Include="vsx_system\header\vsx_sys_winmain.h" />
+    <ClInclude Include="vsx_system\header\vsx_sys_include.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vsx.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{232C4C1A-7C9D-46A2-852B-5BEEA2EDE901}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\vs-include;$(SolutionDir)..\oi-include;$(SolutionDir)..\include;$(SolutionDir)..\ministream;$(SolutionDir)..\onvif;$(SolutionDir)..\scavanger;$(SolutionDir)..\shbuf;$(SolutionDir)..\dvp_sdk\Include;$(SolutionDir)..\libjpeg-turbo\include;$(DX9_SDK)\Include;$(IDS_SDK)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\shbuf\Release;..\..\libjpeg-turbo\lib;$(DX9_SDK)\Lib\x86;$(IDS_SDK)\Lib;c:\VS_Libs\live555\lib\;C:\VS_Libs\IntelH264\Debug;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\vs-include;$(SolutionDir)..\oi-include;$(SolutionDir)..\include;$(SolutionDir)..\ministream;$(SolutionDir)..\onvif;$(SolutionDir)..\scavanger;$(SolutionDir)..\shbuf;$(SolutionDir)..\dvp_sdk\Include;$(SolutionDir)..\libjpeg-turbo\include;$(DX9_SDK)\Include;$(IDS_SDK)\include;c:\VS_Libs\live555\BasicUsageEnvironment\include;c:\VS_Libs\live555\UsageEnvironment\include;c:\VS_Libs\live555\liveMedia\include;c:\VS_Libs\live555\groupsock\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\shbuf\Release;..\..\libjpeg-turbo\lib;$(DX9_SDK)\Lib\x86;$(IDS_SDK)\Lib;C:\VS_Libs\IntelH264\Release;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>VS_NO_GFX_FLAG; WIN32;_DEBUG;_CONSOLE;_LIB;DX9_D3D;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(OIL_LIB)\include;$(OIL_LIB)\oi-include;$(OIL_LIB)\vs-include;$(OIL_LIB)\lib\libjpeg-turbo;$(OIL_LIB)\shbuf;$(OIL_LIB)\vs;$(DX9_SDK)\include;$(IDS_SDK)\include;r:\apps\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>turbojpeg-static.lib;d3d9.lib;d3dx9.lib;winmm.lib;dxva2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib; libcmt.lib;</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>$(IDS_SDK)\lib;$(DX9_SDK)\lib\$(PlatformTarget);$(SolutionDir)$(Configuration)\;</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetPath) $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>VS_NO_GFX_FLAG; WIN32;NDEBUG;_CONSOLE;_LIB;DX9_D3D;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(OIL_LIB)\include;$(OIL_LIB)\oi-include;$(OIL_LIB)\vs-include;$(OIL_LIB)\lib\libjpeg-turbo;$(OIL_LIB)\shbuf;$(OIL_LIB)\vs;$(DX9_SDK)\include;$(IDS_SDK)\include;r:\apps\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>turbojpeg-static.lib;d3d9.lib;d3dx9.lib;winmm.lib;dxva2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(IDS_SDK)\lib;$(DX9_SDK)\lib\$(PlatformTarget);$(SolutionDir)$(Configuration)\;</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetPath) $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

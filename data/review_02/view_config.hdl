@@ -1,0 +1,390 @@
+#DOCTYPE HDL4
+
+define{
+	margin_width:1;
+	border_width:1;
+	spherical_FOV:64.36;
+	spherical_tilt:-12.18;
+	spherical_ur_FOV:48.0;
+	spherical_ur_tilt:-19.0;
+}
+
+library{
+
+	FRAMES{
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Title;
+			Display:Title;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+ 		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Frames;
+			Display:Frames;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+	}
+	GUI{
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Title;
+			Display:Title;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+ 		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Frames;
+ 			Display:Frames;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+ 		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Context;
+ 			Display:Context;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Timeline;
+ 			Display:Timeline;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Clipline;
+ 			Display:Clipline;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+			}
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Navigation;
+			Display:Navigation;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:ProgBar;
+			Display:ProgBar;
+			Background:0;
+			Border{ Width:1;}
+		}
+	}
+
+	INFO_GUI{
+		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Title;
+			Display:Title;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+ 		Panel{
+			$lib:PANEL_PARAMETERS;
+			Name:Frames;
+ 			Display:Frames;
+			Background:0;
+			Margin{ Width:1;}
+			Border{ Width:1;}
+		}
+	
+	}
+
+	FRAME_PARAMETERS{
+		Background-Colour{
+			Red:0;
+			Green:0.05;
+			Blue:0.15;
+		}
+		Background-Colour-Over{
+			Red:0;
+			Green:0.1;
+			Blue:0.3;
+		}
+   		Texture-Border-Colour{
+			Red:0;
+			Green:0.05;
+			Blue:0.15;
+		}
+ 		Texture-Border-Colour-Over{
+			Red:0;
+			Green:0.1;
+			Blue:0.3;
+		}
+ 	}
+
+	PANEL_PARAMETERS{
+  		Background-Colour {
+  			Red:0.0;
+  			Green:0.05;
+  			Blue:0.15;
+  			Alpha:1;
+  		}
+  		Background-Colour-Over {
+  			Red:0.0;
+  			Green:0.1;
+  			Blue:0.3;
+  			Alpha:1;
+  		}
+ 	}
+}
+
+main{
+	Frameset{
+
+		# ----- Frame 1 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Home:0;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:3D;
+				Display:Spherical;
+				Display:Lidar;
+				Background:1;
+ 				Margin{ Width:$margin_width; }
+				Border{ Width:$border_width; }
+				Projection{ Type:Perspective; Fov:40.0; }
+				View{ Type:XYZ; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:2D Solo;
+				Display:Panorama;
+				Background:1;
+ 				Margin{ Width:$margin_width; }
+ 				Border{ Width:$border_width; }
+			}
+		}
+
+		# ----- Frame 2 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Home:0;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:N1;
+				Display:Spherical;
+				Display:Lidar;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:0.0; RX:$spherical_ur_tilt; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:N2;
+				Display:Spherical;
+				Display:Lidar;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:-60.0; RX:$spherical_ur_tilt; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:N3;
+				Display:Spherical;
+				Display:Lidar;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:-120.0; RX:$spherical_ur_tilt; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:N4;
+				Display:Spherical;
+				Display:Lidar;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:-180.0; RX:$spherical_ur_tilt; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:N5;
+				Display:Spherical;
+				Display:Lidar;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:-240.0; RX:$spherical_ur_tilt; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:N6;
+				Display:Spherical;
+				Display:Lidar;
+ 				Background:1;
+				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+ 				Projection{ Type:Perspective; FOV:$spherical_ur_FOV; }
+				View{ Type:XYZ; RY:-300.0; RX:$spherical_ur_tilt; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:2D Nono;
+				Display:Panorama;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+		}
+
+		# ----- Frame 3 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:3D Small;
+				Display:Spherical;
+				Display:Lidar;
+				Background:3;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+				Projection{ Type:Perspective; }
+				View{ Type:XYZ; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:Annular Small;
+				Display:Annular Small;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:2D;
+				Display:Panorama;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+		}
+
+		# ----- Frame 4 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:Cylindrical;
+				Display:Cylindrical;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+				Projection{ Type:Front; Z_Near:-1000; Z_Far:1000; }
+				View{ Type:XYZ; }
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:2D;
+				Display:Panorama;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+		}
+
+		# ----- Frame 5 -----
+		Frame{
+			$lib:FRAME_PARAMETERS;
+			$lib:GUI;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:3D Full;
+				Display:Spherical;
+				Display:Lidar;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+				Projection{ Type:Perspective; Fov:40.0; }
+				View{ Type:XYZ; }
+			}
+		}
+
+		# ----- Frame 6 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:2D Front; 
+				Display:Panorama Front;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:2D Back;
+				Display:Panorama Back;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+ 				Border{ Width:$border_width;}
+			}
+		}
+
+		# ----- Frame 7 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:Annular;
+				Display:Annular;
+				Background:1;
+ 				Margin{ Width:$margin_width;}
+				Border{ Width:$border_width;}
+			}
+		}
+
+		# ----- Frame 8 -----
+		Frame{
+			$lib:GUI;
+			$lib:FRAME_PARAMETERS;
+		}
+
+		# ----- Frame 9 - Spec -----
+		Frame{
+			$lib:INFO_GUI;
+			$lib:FRAME_PARAMETERS;
+			Name:Spec;
+			Panel{
+				$lib:PANEL_PARAMETERS;
+				Name:Spec;
+				Display:Spec;
+				Background:0;
+				Border{ Width:1;}
+			}
+		}
+
+	}
+}

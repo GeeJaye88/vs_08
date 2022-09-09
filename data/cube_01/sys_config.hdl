@@ -1,0 +1,35 @@
+#DOCTYPE HDL4
+main{
+	Console:1;
+	Debug:1;
+	Log:1;
+	Graphics{
+		AAQ:4;
+		FPS:60;
+		Border-Width:4;
+		Background-Colour{
+			Red:0.0;
+			Green:0.0;
+			Blue:0.0;
+		}
+	}
+	Window{
+		Cursor:1;
+		Touch:1;
+		Desktop:0;
+		Windowed:1;
+		Dimension{
+			Min-Height:256;
+			Min-Width:256;
+			Width:1024;
+			Height:576;
+		}
+		Style{
+			Border:0;
+			Menu:0;
+			Overlap:1;
+		}
+	}
+}
+
+

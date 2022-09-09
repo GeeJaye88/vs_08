@@ -1,0 +1,15 @@
+#DOCTYPE HDL4
+main{
+	Archive{
+		Compression:85;
+		Extra Threads:2;
+	}
+	Panophoto{
+		Full-Size:0;
+		Basis:1.0;
+		Gamma:1.0;
+		Sharpness:0.5;
+		Sample:3;
+		Width:4096;
+	}
+}

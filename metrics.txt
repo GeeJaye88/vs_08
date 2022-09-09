@@ -1,0 +1,19 @@
+41417  ;'
+17457  "//"
+10524  '{'
+10522  '{'
+106    auto
+464    class
+262    enum
+686    struct
+
+559    #if
+203    #else
+564    #endif
+966    #include
+519    #define
+
+^(?([^\r\n])\s)*[^\s+?/]+[^\n]*$
+
+Gives
+Matching lines: 92939    Matching files: 457    Total files searched: 457

@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vs_application\camera_03\source\c3_application.cpp" />
+    <ClCompile Include="vs_application\cube_01\source\c1_application.cpp" />
+    <ClCompile Include="vs_application\cube_01\source\c1_kontrol.cpp" />
+    <ClCompile Include="vs_application\cube_01\source\c1_model.cpp" />
+    <ClCompile Include="vs_application\review_02\source\r2_application.cpp" />
+    <ClCompile Include="vs_application\review_02\source\r2_configfiles.cpp" />
+    <ClCompile Include="vs_application\review_02\source\r2_control.cpp" />
+    <ClCompile Include="vs_application\review_02\source\r2_model.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_application.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_configfiles.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_kontrol.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_model.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_system_io.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_system_object.cpp" />
+    <ClCompile Include="vs_application\surface_01\source\s1_system_param.cpp" />
+    <ClCompile Include="vs_application\surface_02\source\s2_application.cpp" />
+    <ClCompile Include="vs_application\surface_02\source\s2_kontrol.cpp" />
+    <ClCompile Include="vs_application\surface_02\source\s2_model.cpp" />
+    <ClCompile Include="vs_application\surface_02\source\s2_surface_02.cpp" />
+    <ClCompile Include="vs_application\surface_03\source\s3_application.cpp" />
+    <ClCompile Include="vs_application\surface_03\source\s3_kontrol.cpp" />
+    <ClCompile Include="vs_application\surface_03\source\s3_model.cpp" />
+    <ClCompile Include="vs_application\surface_03\source\s3_surface_03.cpp" />
+    <ClCompile Include="vs_library\source\vs_arc_clip.cpp" />
+    <ClCompile Include="vs_library\source\vs_buf_ushort.cpp" />
+    <ClCompile Include="vs_library\source\vs_cam_graphs.cpp" />
+    <ClCompile Include="vs_library\source\vs_cam_ids.cpp" />
+    <ClCompile Include="vs_library\source\vs_cam_pic.cpp" />
+    <ClCompile Include="vs_library\source\vs_cam_props.cpp" />
+    <ClCompile Include="vs_library\source\vs_char_proc.cpp" />
+    <ClCompile Include="vs_library\source\vs_csv.cpp" />
+    <ClCompile Include="vs_library\source\vs_flt_buffer.cpp" />
+    <ClCompile Include="vs_library\source\vs_fractal.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_archive.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_arkive.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_buffer.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_analysis.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_capture.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_col_process.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_heightfield.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_jpeglib.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_lut.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_media.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_process.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_props.cpp" />
+    <ClCompile Include="vs_library\source\vs_img_timeline.cpp" />
+    <ClCompile Include="vs_library\source\vs_lidar_ouster.cpp" />
+    <ClCompile Include="vs_library\source\vs_obj_config.cpp" />
+    <ClCompile Include="vs_library\source\vs_dot_obj_elem.cpp" />
+    <ClCompile Include="vs_library\source\vs_parameter.cpp" />
+    <ClCompile Include="vs_library\source\vs_fractal_ds.cpp" />
+    <ClCompile Include="vs_library\source\vs_reference.cpp" />
+    <ClCompile Include="vs_library\source\vs_tint.cpp" />
+    <ClCompile Include="vs_library\source\vs_lum_buffer.cpp" />
+    <ClCompile Include="vs_library\source\vs_vnode.cpp" />
+    <ClCompile Include="vs_project\shared_memory_04\source\vs_shared_memory.cpp" />
+    <ClCompile Include="vs_project\shared_memory_04\source\vs_shared_memory_framework.cpp" />
+    <ClCompile Include="vs_project\timer\Timer.cpp" />
+    <ClCompile Include="vs_system\source\d3dFont.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_camera.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_control.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_dependency.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_frame.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_interface.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_kamera.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_keyboard.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_kontrol.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_layout.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_panel.cpp" />
+    <ClCompile Include="vs_system\source\vs_app_view.cpp" />
+    <ClCompile Include="vs_system\source\vs_elm_context.cpp" />
+    <ClCompile Include="vs_system\source\vs_elm_matrix.cpp" />
+    <ClCompile Include="vs_system\source\vs_pan_context.cpp" />
+    <ClCompile Include="vs_system\source\vs_gfx_interface.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_console.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_context.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_input.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_keyboard.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_license.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_output.cpp" />
+    <ClCompile Include="vs_system\source\vs_sys_winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vs_application\camera_03\header\c3_application.h" />
+    <ClInclude Include="vs_application\camera_03\header\c3_include.h" />
+    <ClInclude Include="vs_application\camera_03\header\c3_variant.h" />
+    <ClInclude Include="vs_application\camera_03\header\c3_version.h" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_capture.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_display.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_sc_scavenger.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_setup.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_start_live_cam.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_switch.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_buf_accum.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_cam_focus_bar_graph.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_buf_monitor.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_buf_preproc.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_gps.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_process.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_update.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_sc_ipc.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_pi_camera.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_pi_props.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_pi_props_ptz_onvif.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_sc_gps.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_sc_onvif.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_sc_sharing.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_sc_streaming.hpp" />
+    <ClInclude Include="vs_application\camera_03\hpp\c3_app_gps_task_delay.hpp" />
+    <ClInclude Include="vs_application\cube_01\header\c1_application.h" />
+    <ClInclude Include="vs_application\cube_01\header\c1_include.h" />
+    <ClInclude Include="vs_application\cube_01\header\c1_kontrol.h" />
+    <ClInclude Include="vs_application\cube_01\header\c1_model.h" />
+    <ClInclude Include="vs_application\cube_01\header\c1_version.h" />
+    <ClInclude Include="vs_application\cube_01\hpp\c1_cube.hpp" />
+    <ClInclude Include="vs_application\cube_01\hpp\c1_mesh.hpp" />
+    <ClInclude Include="vs_application\cube_01\hpp\c1_setup.hpp" />
+    <ClInclude Include="vs_application\cube_01\hpp\c1_camera.hpp" />
+    <ClInclude Include="vs_application\cube_01\hpp\c1_surf.hpp" />
+    <ClInclude Include="vs_application\gems\com_port.h" />
+    <ClInclude Include="vs_application\gems\string_format.h" />
+    <ClInclude Include="vs_application\gems\task_delay.h" />
+    <ClInclude Include="vs_application\header\vs_app_setup.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_application.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_buttons.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_configfiles.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_control.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_define.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_definitions.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_include.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_model.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_variant.h" />
+    <ClInclude Include="vs_application\review_02\header\r2_version.h" />
+    <ClInclude Include="vs_application\review_02\hpp\r2_capture_screen.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp\r2_old_button_geometry.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp\r2_empty.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp\r2_pano_atlas.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_app\r2_app_archive_export.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_app\r2_app_archive_methods.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_app\r2_app_panophoto.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_app\r2_app_timeline_display.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_app\r2_app_timeline_methods.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_camera\c5_handle_elem_img_rect.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_cam\r2_cam_focus_bar_graph.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_cam\r2_cam_image.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_cam\r2_cam_obj_config.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_cam\r2_cam_props.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_app_get_and_set.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_pimp_cdtor.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_framework.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_img_nav.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_pimp.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_tint.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_update_element.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_update_elem_image.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_update_elem_pano.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_update_frame_group.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_control\r2_ctr_update_panel.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_about_dashboard.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_camera_dashboard.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_gps_dashboard.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_get_panel_handle.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_lidar.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_monitor.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_nest_button.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_progress_bar.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_stream.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_display_list\r2_dsp_param_dashboard.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_gfx\r2_gfx_get_set.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_img\r2_img_props.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_img_panels\r2_img_panels.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_pi\r2_pi_model.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_pi\r2_pi_panophoto.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_pi\r2_pi_props.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_ptf_panels\r2_ptf_frames.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_ptf_panels\r2_ptf_panels.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_review\r2_review_date_time.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_review\r2_review_get_set.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_buttons.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_tint_get_param.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_ui.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_img_geom.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_img_nav_but.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_panels.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_panel_props.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_pano.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_stream.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_tint_cam.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_setup\r2_setup_tint_img.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_aec.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_colour.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_gaincol.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_settings.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_acquire.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_focus.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_pan.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_callback_gainmas.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_enum.h" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_update_body.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_cam\r2_tint_cam_interface.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_callback.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_callback_imgloc.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_callback_fconfig.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_callback_imgfx.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_enum.h" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_callback_imgptz.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_update_body.hpp" />
+    <ClInclude Include="vs_application\review_02\hpp_tint_img\r2_tint_img_interface.hpp" />
+    <ClInclude Include="vs_application\surface_01\header\s1_application.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_config_files.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_define.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_include.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_kontrol.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_model.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_model_enum.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_stopwatch.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_system_io.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_system_object.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_system_param.h" />
+    <ClInclude Include="vs_application\surface_01\header\s1_version.h" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_atlas_page.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_enum.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_img_capture.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_img_props.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_kamera.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_my_star.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_obj_exploded_cube.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_obj_star_system.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_obj_wavefront.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_obj_waveinfo.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp\s1_model_panels_set_layout.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_param\s1_model_kpad_set_with_tint_update.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_param\s1_model_param_interface.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_param\s1_model_param_setup.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_kontrol.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_callback.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_enum.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_get.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_interface.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_select.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_setup.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_1_callback_explore.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_2_callback_system.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_3_callback_objects.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_4_callback_info.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_5_callback_sun.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_6_callback_time.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_7_callback_colour.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_8_callback_settings.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_callback_imgfx.hpp" />
+    <ClInclude Include="vs_application\surface_01\hpp_tint\s1_tint_callback_imgloc.hpp" />
+    <ClInclude Include="vs_application\surface_02\header\s2_application.h" />
+    <ClInclude Include="vs_application\surface_02\header\s2_define.h" />
+    <ClInclude Include="vs_application\surface_02\header\s2_include.h" />
+    <ClInclude Include="vs_application\surface_02\header\s2_kontrol.h" />
+    <ClInclude Include="vs_application\surface_02\header\s2_model.h" />
+    <ClInclude Include="vs_application\surface_02\header\s2_surface_02.h" />
+    <ClInclude Include="vs_application\surface_02\header\s2_version.h" />
+    <ClInclude Include="vs_application\surface_02\hpp\s2_model_acquire.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp\s2_model_buffer_template.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp\s2_model_kamera.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp\s2_model_panels_set_layout.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp\s2_model_panel_get.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp\s2_model_project_framework.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_inc\s2_model_acquire_cleanup.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_inc\s2_model_acquire_setup.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_acq_lgt_axis.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_acq_lgt_spot.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_exp_lgt_axis.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_exp_lgt_spot.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_heightfield.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_loi_axis.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_loi_rect.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_loi_rule.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_loi_spot.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_surf_axis.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_surf_base.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_surf_edge.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_surf_mesh.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_obj\s2_obj_surf_quad.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_param\s2_model_kpad_set_with_tint_update.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_param\s2_model_param_interface.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_surface_02\s2_param_interface.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_surface_02\s2_param_setup.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_surface_02\s2_pi.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_surface_02\s2_pi_configuration.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_surface_02\s2_scene_setup.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_surface_02\s2_sub_framework.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_1_callback_acquire_2.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_4_callback_explore.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_7_callback_function.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_callback.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_enum.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_get.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_interface.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_kontrol.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_select.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_setup.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint\s2_tint_templates.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint_include\s2_tint_declare_group_element.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint_include\s2_tint_define_get_element_dspl_info.hpp" />
+    <ClInclude Include="vs_application\surface_02\hpp_tint_include\s2_tint_initialise_group_element.hpp" />
+    <ClInclude Include="vs_application\surface_03\header\s3_application.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_define.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_threadpool.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_include.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_kontrol.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_model.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_surface_03.h" />
+    <ClInclude Include="vs_application\surface_03\header\s3_version.h" />
+    <ClInclude Include="vs_application\surface_03\hpp\s3_model_kamera.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp\s3_model_img_process.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp\s3_model_panels_set_layout.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp\s3_model_project_framework.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_inc\s3_model_img_process_cleanup.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_inc\s3_model_img_process_setup.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_loi_anno.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_loi_sect.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_surf_axis.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_surf_base.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_surf_edge.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_exp_lgt_axis.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_loi_spot.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_heightfield.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_loi_rect.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_loi_axis.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_loi_rule.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_acq_lgt_axis.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_exp_lgt_spot.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_obj\s3_obj_surf_mesh.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_param\s3_model_kpad_set_with_tint_update.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_param\s3_model_param_interface.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_surface_03\s3_param_interface.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_surface_03\s3_param_setup.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_surface_03\s3_pi.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_surface_03\s3_pi_configuration.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_surface_03\s3_scene_setup.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_5_callback_measure.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_kontrol.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_callback.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_enum.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_get.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_interface.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_notes.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_select.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_setup.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_2_callback_calibrate.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_3_callback_light.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_7_callback_function.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_1_callback_acquire.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_4_callback_explore.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_6_callback_enhance.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_8_callback_settings.hpp" />
+    <ClInclude Include="vs_application\surface_03\hpp_tint\s3_tint_templates.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp\application_class.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp\kontrol_class.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp\model_kamera_methods.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp\model_tint_explore_old.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp\model_panel_get_display_list_handle.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp\model_panels_set_layout.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_extra\save_bmp_image.h" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_1_callback.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_callback.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_enum.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_get.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_interface.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_kontrol.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_select.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_kpad\model_kpad_setup.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_param\param_cleanup.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_param\param_setup.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_template\model_template.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_toolbar\model_toolbar.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_toolbar\model_toolbar_enum.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_toolbar\model_toolbar_incl.hpp" />
+    <ClInclude Include="vs_application\surface_shared\hpp_toolbar\model_toolbar_interface.hpp" />
+    <ClInclude Include="vs_application\surface_shared\h\application_class.h" />
+    <ClInclude Include="vs_application\surface_shared\h\kontrol_class.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_camera_methods_incl.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_panel_methods_incl.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_tint_explore_set_text_incl_old.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_pi_class_incl.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_pi_ctor_incl.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_pi_dtor_incl.h" />
+    <ClInclude Include="vs_application\surface_shared\h\model_tint_setup_incl.h" />
+    <ClInclude Include="vs_include\vs_folder.h" />
+    <ClInclude Include="vs_include\vs_node.h" />
+    <ClInclude Include="vs_include\vs_timeline.h" />
+    <ClInclude Include="vs_library\header\vs_arc_clip.h" />
+    <ClInclude Include="vs_library\header\vs_buf_ushort.h" />
+    <ClInclude Include="vs_library\header\vs_cam_define.h" />
+    <ClInclude Include="vs_library\header\vs_cam_graphs.h" />
+    <ClInclude Include="vs_library\header\vs_cam_ids.h" />
+    <ClInclude Include="vs_library\header\vs_cam_props.h" />
+    <ClInclude Include="vs_library\header\vs_cam_pic.h" />
+    <ClInclude Include="vs_library\header\vs_char_proc.h" />
+    <ClInclude Include="vs_library\header\vs_csv.h" />
+    <ClInclude Include="vs_library\header\vs_flt_buffer.h" />
+    <ClInclude Include="vs_library\header\vs_fractal.h" />
+    <ClInclude Include="vs_library\header\vs_img_archive.h" />
+    <ClInclude Include="vs_library\header\vs_img_arkive.h" />
+    <ClInclude Include="vs_library\header\vs_img_buffer.h" />
+    <ClInclude Include="vs_library\header\vs_img_analysis.h" />
+    <ClInclude Include="vs_library\header\vs_img_capture.h" />
+    <ClInclude Include="vs_library\header\vs_img_col_process.h" />
+    <ClInclude Include="vs_library\header\vs_img_heightfield.h" />
+    <ClInclude Include="vs_library\header\vs_img_jpeglib.h" />
+    <ClInclude Include="vs_library\header\vs_img_lut.h" />
+    <ClInclude Include="vs_library\header\vs_img_media.h" />
+    <ClInclude Include="vs_library\header\vs_img_process.h" />
+    <ClInclude Include="vs_library\header\vs_img_props.h" />
+    <ClInclude Include="vs_library\header\vs_img_timeline.h" />
+    <ClInclude Include="vs_library\header\vs_lidar_ouster.h" />
+    <ClInclude Include="vs_library\header\vs_obj_config.h" />
+    <ClInclude Include="vs_library\header\vs_dot_obj_elem.h" />
+    <ClInclude Include="vs_library\header\vs_parameter.h" />
+    <ClInclude Include="vs_library\header\vs_parameter_methods.h" />
+    <ClInclude Include="vs_library\header\vs_parameter_methods_static.h" />
+    <ClInclude Include="vs_library\header\vs_fractal_ds.h" />
+    <ClInclude Include="vs_library\header\vs_reference.h" />
+    <ClInclude Include="vs_library\header\vs_tint.h" />
+    <ClInclude Include="vs_library\header\vs_lum_buffer.h" />
+    <ClInclude Include="vs_library\header\vs_vnode.h" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_mesh_quad.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s2_acq_lgt_axis.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_acq_lgt_spot.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_loi_anno.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_loi_sect.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_surf_axis.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_box_cube.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_exp_lgt_axis.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_loi_axis.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_surf_mount.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_acq_lgt_axis.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_asteroid.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_asteroid_belt.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_button.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_box_face.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_halo.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_img_rect.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_config.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_dashboard.h" />
+    <ClInclude Include="vs_library\hpp_obj\vs_image_roi.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_dotobj.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_grid3d.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_kandinsky.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_mesh.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_mesh_edge.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_vptf.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_orbit.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_wavefront.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_panel_grid.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_panel_rect.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_annular.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_annular_aoi.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_annular_mask.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_cylinder.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_cylinder_top_ring.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_exposure_aec_line.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_exposure_aec_tri.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_lidar.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_rect.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_rect_part.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_pano_sphere.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_rings.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_ring_system.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_sphere.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_dashboard.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_mystar_starfield.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_obj_sphere.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_loi_rect.hpp" />
+    <ClInclude Include="vs_library\hpp_obj\vs_s3_loi_rule.hpp" />
+    <ClInclude Include="vs_library\lambda\vs_action_value_lambda.hpp" />
+    <ClInclude Include="vs_library\lambda\vs_auto_cdp.h" />
+    <ClInclude Include="vs_library\lambda\vs_auto_folder.h" />
+    <ClInclude Include="vs_library\lambda\vs_auto_str.h" />
+    <ClInclude Include="vs_project\shared_memory_04\header\vs_shared_memory.h" />
+    <ClInclude Include="vs_project\shared_memory_04\header\vs_shared_memory_framework.h" />
+    <ClInclude Include="vs_project\shared_memory_04\header\vs_shared_memory_structs.h" />
+    <ClInclude Include="vs_project\timer\Timer.h" />
+    <ClInclude Include="vs_resources\resource.h" />
+    <ClInclude Include="vs_system\header\d3dFont.h" />
+    <ClInclude Include="vs_system\header\d3dXutility.h" />
+    <ClInclude Include="vs_system\header\vs_app_camera.h" />
+    <ClInclude Include="vs_system\header\vs_app_control.h" />
+    <ClInclude Include="vs_system\header\vs_app_dependency.h" />
+    <ClInclude Include="vs_system\header\vs_app_frame.h" />
+    <ClInclude Include="vs_system\header\vs_app_interface.h" />
+    <ClInclude Include="vs_system\header\vs_app_kamera.h" />
+    <ClInclude Include="vs_system\header\vs_app_keyboard.h" />
+    <ClInclude Include="vs_system\header\vs_app_kontrol.h" />
+    <ClInclude Include="vs_system\header\vs_app_layout.h" />
+    <ClInclude Include="vs_system\header\vs_inc_maths.h" />
+    <ClInclude Include="vs_system\header\vs_app_panel.h" />
+    <ClInclude Include="vs_system\header\vs_app_view.h" />
+    <ClInclude Include="vs_system\header\vs_elm_context.h" />
+    <ClInclude Include="vs_system\header\vs_elm_lam.h" />
+    <ClInclude Include="vs_system\header\vs_elm_matrix.h" />
+    <ClInclude Include="vs_system\header\vs_pan_context.h" />
+    <ClInclude Include="vs_system\header\vs_gfx_interface.h" />
+    <ClInclude Include="vs_system\header\vs_inc_defs.h" />
+    <ClInclude Include="vs_system\header\vs_inc_dems.h" />
+    <ClInclude Include="vs_system\header\vs_sys_console.h" />
+    <ClInclude Include="vs_system\header\vs_sys_context.h" />
+    <ClInclude Include="vs_system\header\vs_sys_input.h" />
+    <ClInclude Include="vs_system\header\vs_sys_keyboard.h" />
+    <ClInclude Include="vs_system\header\vs_sys_license.h" />
+    <ClInclude Include="vs_system\header\vs_sys_licenseinfo.h" />
+    <ClInclude Include="vs_system\header\vs_sys_output.h" />
+    <ClInclude Include="vs_system\header\vs_sys_stream.h" />
+    <ClInclude Include="vs_system\header\vs_sys_version.h" />
+    <ClInclude Include="vs_system\header\vs_sys_vrtsrf.h" />
+    <ClInclude Include="vs_system\header\vs_sys_winmain.h" />
+    <ClInclude Include="vs_system\hpp\vs_app_control_implementation.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_app_control_interface.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_atlas.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_device.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_font.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_fonts.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_imp_fonts.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_imp_get_and_set.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_imp_lams.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_imp_pages.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_imp_shaders.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_lams.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_page.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_page_dimension.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_imp_pick_ray.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_pi_element.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_pi_props.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_render_to_image.hpp" />
+    <ClInclude Include="vs_system\hpp\vs_gfx_shaders.hpp" />
+    <ClInclude Include="vs_system\lambda\vs_auto_cdp.h" />
+    <ClInclude Include="vs_system\lambda\vs_auto_folder.h" />
+    <ClInclude Include="vs_system\lambda\vs_auto_str.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vs.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="vs_resources\icons\vs_16.ico" />
+    <Image Include="vs_resources\icons\vs_48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\shbuf\shbuf.vcxproj">
+      <Project>{16edc624-70db-4777-946a-2a84b0e586f5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\turbo-jpeg\turbo-jpeg.vcxproj">
+      <Project>{d0d85a63-4a79-4096-8a54-1fc6f6574eea}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92F42D1B-7A69-4C39-9812-5F58F5F85E47}</ProjectGuid>
+    <RootNamespace>FFMPEGClassExample</RootNamespace>
+    <ProjectName>vs</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Gareth\Code\VS\vs_lib\vs_06;$(SolutionDir)..\oi-include;$(SolutionDir)..\include;$(SolutionDir)..\ministream;$(SolutionDir)..\onvif;$(SolutionDir)..\scavanger;$(SolutionDir)..\shbuf;$(SolutionDir)..\dvp_sdk\Include;$(SolutionDir)..\libjpeg-turbo\include;$(DX9_SDK)\Include;$(IDS_SDK)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\shbuf\Release;..\..\dvp_sdk\Lib;..\..\libjpeg-turbo\lib;$(DX9_SDK)\Lib\x86;$(IDS_SDK)\Lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\Gareth\Code\VS\vs_lib\vs_06;$(SolutionDir)..\oi-include;$(SolutionDir)..\include;$(SolutionDir)..\ministream;$(SolutionDir)..\onvif;$(SolutionDir)..\scavanger;$(SolutionDir)..\shbuf;$(SolutionDir)..\dvp_sdk\Include;$(SolutionDir)..\libjpeg-turbo\include;$(DX9_SDK)\Include;$(IDS_SDK)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\shbuf\Release;..\..\dvp_sdk\Lib;..\..\libjpeg-turbo\lib;$(DX9_SDK)\Lib\x86;$(IDS_SDK)\Lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\Gareth\Code\VS\vs_libs\vs_06;$(SolutionDir)..\oi-include;$(SolutionDir)..\include;$(SolutionDir)..\ministream;$(SolutionDir)..\onvif;$(SolutionDir)..\scavanger;$(SolutionDir)..\shbuf;$(SolutionDir)..\dvp_sdk\Include;$(SolutionDir)..\libjpeg-turbo\include;$(DX9_SDK)\Include;$(IDS_SDK)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\shbuf\Release;..\..\dvp_sdk\Lib;..\..\libjpeg-turbo\lib;$(DX9_SDK)\Lib\x86;$(IDS_SDK)\Lib;$(LibraryPath)</LibraryPath>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <LinkIncremental>false</LinkIncremental>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\Gareth\Code\VS\vs_libs\vs_06;$(SolutionDir)..\oi-include;$(SolutionDir)..\include;$(SolutionDir)..\ministream;$(SolutionDir)..\onvif;$(SolutionDir)..\scavanger;$(SolutionDir)..\shbuf;$(SolutionDir)..\dvp_sdk\Include;$(SolutionDir)..\libjpeg-turbo\include;$(DX9_SDK)\Include;$(IDS_SDK)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\shbuf\Release;..\..\dvp_sdk\Lib;..\..\libjpeg-turbo\lib;$(DX9_SDK)\Lib\x86;$(IDS_SDK)\Lib;$(LibraryPath)</LibraryPath>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <LinkIncremental>false</LinkIncremental>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>VS_GFX_SHADERS=1;VS_GFX_FLAG;VS_LIDAR=0;VS_DEBUG_FLAG;_AFXDLL;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(OIL_LIB)\include;$(OIL_LIB)\oi-include;$(OIL_LIB)\vs-include;$(OIL_LIB)\lib\libjpeg-turbo-x64;$(OIL_LIB)\shbuf;$(OIL_LIB)\vs_08;$(DX9_SDK)\include;$(IDS_SDK)\include;r:\apps\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;shbuf.lib;d3d9.lib;d3dx9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib; libcmt.lib;</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT  /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(Configuration)\;$(IDS_SDK)\lib;$(DX9_SDK)\lib\$(PlatformTarget);$(SolutionDir)$(Configuration)\;$(SolutionDir)$(Configuration)\;$(OIL_SDK)\shbuf\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetPath) $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>VS_GFX_SHADERS=0;VS_GFX_FLAG;_AFXDLL;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(OIL_LIB)\include;$(OIL_LIB)\oi-include;$(OIL_LIB)\vs-include;$(OIL_LIB)\lib\libjpeg-turbo-x64;$(OIL_LIB)\shbuf;$(OIL_LIB)\vs_08;$(DX9_SDK)\include;$(IDS_SDK)\include;r:\apps\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ueye_api_64.lib;shbuf.lib;d3d9.lib;d3dx9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib; libcmt.lib;</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT  /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(Platform)\$(Configuration)\;$(IDS_SDK)\lib;$(DX9_SDK)\lib\$(PlatformTarget);$(SolutionDir)$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetPath) $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>VS_GFX_SHADERS=1;VS_GFX_FLAG;VS_LIDAR=0;_AFXDLL;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(OIL_LIB)\include;$(OIL_LIB)\oi-include;$(OIL_LIB)\vs-include;$(OIL_LIB)\lib\libjpeg-turbo-x64;$(OIL_LIB)\shbuf;$(OIL_LIB)\vs_08;$(DX9_SDK)\include;$(IDS_SDK)\include;r:\apps\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalDependencies>shbuf.lib;d3d9.lib;d3dx9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib; libcmt.lib;</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(Configuration)\;$(IDS_SDK)\lib;$(DX9_SDK)\lib\$(PlatformTarget);$(SolutionDir)$(Configuration)\;$(OIL_SDK)\shbuf\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetPath) $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>VS_GFX_SHADERS=0;VS_GFX_FLAG;_AFXDLL;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(OIL_LIB)\include;$(OIL_LIB)\oi-include;$(OIL_LIB)\vs-include;$(OIL_LIB)\lib\libjpeg-turbo-x64;$(OIL_LIB)\shbuf;$(OIL_LIB)\vs_08;$(DX9_SDK)\include;$(IDS_SDK)\include;r:\apps\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalDependencies>ueye_api_64.lib;shbuf.lib;d3d9.lib;d3dx9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib; libcmt.lib;</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(Platform)\$(Configuration)\;$(IDS_SDK)\lib;$(DX9_SDK)\lib\$(PlatformTarget);$(SolutionDir)$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetPath) $(SolutionDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
